@@ -15,7 +15,7 @@ Create `~/.config/yazi/keymap.toml` and add:
 ```
 [[manager.prepend_keymap]]
 on   = "<Enter>"
-run  = "plugin --sync smart-enter"
+run  = "plugin smart-enter"
 desc = "Enter the child directory, or open the file"
 ```
 
